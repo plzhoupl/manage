@@ -1,0 +1,128 @@
+@charset "UTF-8";
+html {
+    width: 100%;
+    font-size: 100%;
+}
+body{
+    width: 100%;
+    font-family: 'Microsoft Yahei';
+    color: #000;
+    font-size: 14px;
+    background-color: #fff;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+.text-center {
+    text-align: center;
+}
+.f16 {
+    font-size: 16px;
+}
+
+.f28{
+    font-size: 28px;
+}
+.right {
+    float: right !important;
+}
+a {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover {
+    color: #009FE8;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0;
+}
+.bg_home{
+    position: relative;
+    height: 550px;
+    background: url("../image/bg1.jpg") no-repeat top center;
+}
+.bg_home .content>form{
+    margin-left: 60%;
+}
+.bg_home .content #example{
+    width: 438px;
+    margin-left: 57.8%;
+    margin-bottom: 30px;
+}
+.bg_home .content #example>h2{
+    color: #fff;
+    padding-top: 4%;
+    letter-spacing: 5px;
+}
+.bg_home .content #example>img{
+    display: block;
+    margin-bottom: 12px;
+}
+.bg_home .login{
+    width: 325px;
+    height: 325px;
+    background-color: #fff;
+    padding: 15px 15px 0;
+    position: absolute;
+    border-radius:6px;
+}
+.bg_home .login h3{
+    font-weight: normal;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+.bg_home .login div{
+    width: 98%;
+    height: 15%;
+    line-height: 15%;
+    margin-bottom: 3%;
+    border-bottom: 1px #009FE8 solid;
+}
+.bg_home .login div input{
+    border: none;
+    width: 80%;
+    color: #ccc;
+}
+.bg_home .login span{
+    display: block;
+    color: #EC7D51;
+    margin-top: 4%;
+}
+.bg_home .login a{
+    display: block;
+    width: 90%;
+}
+.bg_home .login .userLogin{
+    width: 96%;
+    height: 12%;
+    line-height: 12%;
+    background-color: #009FE8;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    margin: 5% 0 1%;
+}
+.bg_home .login .userReset{
+    margin-left: 12px;
+    text-decoration: underline;
+}
+.bg_home .login #user,.bg_home .login #password{
+    display: inline-block;
+    width: 25px;
+    height: 22px;
+}
+.bg_home .login #user{
+    background: url("../image/icon.png") no-repeat 0px 0px;
+}
+.bg_home .login #password{
+    background: url("../image/icon.png") no-repeat 0px -25px;
+}
